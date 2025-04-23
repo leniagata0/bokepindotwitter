@@ -19,7 +19,6 @@ class AdCodeWithoutRouter extends React.Component {
 
   render() {
     return (
-      <div className="container mx-auto text-center" aria-hidden={true}>
         <ins
           className="adsbygoogle"
           id="718531"
@@ -29,7 +28,6 @@ class AdCodeWithoutRouter extends React.Component {
           data-full-width-responsive="true"
         ></ins>
         <script dangerouslySetInnerHTML={{ __html: '(window.adsbyjuicy = window.adsbyjuicy || []).push({'adzone':718531});' }}></script>
-      </div>
     );
   }
 }

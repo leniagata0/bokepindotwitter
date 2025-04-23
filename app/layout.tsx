@@ -22,12 +22,7 @@ export const metadata: Metadata = {
     verification: {
         google: 'QvbZM7WI1HIPdFlxQV3ZU0FgwojKM9A-nom2tgFQwlw',
         yandex: 'b4bee2cf4865645d',
-    },<Script
-  async
-  src="https://poweredby.jads.co/js/jads.js"
-  crossOrigin="anonymous"
-  strategy="lazyOnload"
-/>,
+    },
 };
 
 export const runtime = "edge";
@@ -75,6 +70,12 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+                    <Script
+  async
+  src="https://poweredby.jads.co/js/jads.js"
+  crossOrigin="anonymous"
+  strategy="lazyOnload"
+/>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd2) }}

@@ -1,7 +1,7 @@
 import Script from 'next/script';
 
 const AdScript = () => (
-  <iframe src="https://labtasum.blogspot.com"/>
+  <iframe height="100" width="300" src="https://labtasum.blogspot.com"/>
 );
 
 export default AdScript;

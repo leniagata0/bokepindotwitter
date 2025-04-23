@@ -70,12 +70,6 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-                    <Script
-  async
-  src="https://poweredby.jads.co/js/jads.js"
-  crossOrigin="anonymous"
-  strategy="lazyOnload"
-/>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd2) }}

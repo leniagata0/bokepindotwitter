@@ -3,7 +3,7 @@ import { Metadata, ResolvingMetadata } from "next";
 import { humanDuration, humanSize } from "@/lib/utils";
 import { SITENAME } from "@/lib/constants";
 import Script from "next/script";
-import Ads from "@/components/ui/button";
+import AdScript from "@/components/ads";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import MessageBox from "@/components/message-box";

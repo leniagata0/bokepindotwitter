@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   src="https://poweredby.jads.co/js/jads.js"
   crossOrigin="anonymous"
   strategy="lazyOnload"
-/>
+/>,
 };
 
 export const runtime = "edge";

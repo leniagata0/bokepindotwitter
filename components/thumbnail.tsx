@@ -28,6 +28,7 @@ const Thumbnail = ({
         <Image
             className="!w-full !h-[110px] md:!h-[150px] lg:!h-[180px] object-cover rounded-none md:rounded-t-md"
             alt={title}
+            title={title}
             src={image[imageIndex]}
             loader={ImageLoader}
             width={320}

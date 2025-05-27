@@ -145,7 +145,7 @@ export default async function Video({ params }: PageProps) {
             <Card className="mx-2 mb-8">
                 <CardHeader>
                     <CardTitle className="text-xl md:text-3xl font-bold">
-                        {file.file_title} di ${SITENAME}
+                        {file.file_title} di {SITENAME}
                     </CardTitle>
                 </CardHeader><center><script
       dangerouslySetInnerHTML={{

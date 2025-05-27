@@ -26,7 +26,7 @@ export async function generateMetadata(
     }
 
     const file = data.result[0];
-    const title = `${file.file_title} di ${SITENAME}`;
+    const title = `${file.file_title}`;
     const description = `${file.file_title} di ${SITENAME} Video Bokep Indo Viral Terbaru Xpanas Bocil Ngentot Jilbab Smp Mama Sma`;
 
     return {
@@ -145,7 +145,7 @@ export default async function Video({ params }: PageProps) {
             <Card className="mx-2 mb-8">
                 <CardHeader>
                     <CardTitle className="text-xl md:text-3xl font-bold">
-                        {file.file_title}
+                        {file.file_title} di ${SITENAME}
                     </CardTitle>
                 </CardHeader><center><script
       dangerouslySetInnerHTML={{

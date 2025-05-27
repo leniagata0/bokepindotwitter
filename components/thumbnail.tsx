@@ -4,9 +4,9 @@ import Image from "next/image";
 import { useState } from "react";
 
 const ImageLoader = ({ src, width, quality }: any) => {
-    return `${src}&w=320&q=${
+    return `https://wsrv.nl/%3Furl=${src}%26w=320%26q=${
         quality || 80
-    }`;
+    }%26output=webp`;
 };
 
 const Thumbnail = ({
